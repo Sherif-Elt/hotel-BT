@@ -95,7 +95,7 @@ h2, h3, h4 {
 }
 
 .nav-bar h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 .logo {
@@ -111,12 +111,12 @@ ul {
 
 li {  
     
-    padding-top: 0.3rem;
+    padding-top: 0.5rem;
     align-items: center;
 }
 
 #header ul li a {
-    padding: 1.20rem 1rem;
+    padding: 1.4rem 1rem;
     font-size: 1rem;
 }
 #header ul li a:hover, .current {
