@@ -110,7 +110,7 @@ li {
 
 #header ul li a {
     align-items: center;
-    padding: 1.25rem 1rem;
+    padding: 1.26rem 1rem;
     font-size: 1rem;
 }
 #header ul li a:hover, .current {
@@ -282,6 +282,10 @@ li {
 #contact-form {
     height: 100vh;
     overflow: hidden;
+}
+
+#contact-form h2 {
+    margin-top: 2rem;
 }
 
 
