@@ -14,10 +14,8 @@ body {
 /* utilities*/
 
 .container {
-    max-width: 1024px;
-    padding: 0.5rem 3rem;
-    margin: auto;
-    
+    max-width: 1024px; 
+    margin: auto;   
 
 }
 
@@ -80,12 +78,7 @@ h2, h3, h4 {
 .bg-light {background:white;}
 
 /* Header */
-#header {
-    position: fixed;
-    position: relative;
-    
-    
-}
+
 
 .nav-bar {
     display: flex;
@@ -95,7 +88,8 @@ h2, h3, h4 {
 }
 
 .nav-bar h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin: auto;
 }
 
 .logo {
@@ -106,17 +100,17 @@ h2, h3, h4 {
 ul {
     display: flex;
     align-content: center;
-    
+    justify-content: center;  
 }
 
 li {  
     
-    padding-top: 0.5rem;
-    align-items: center;
+  margin: auto;
 }
 
 #header ul li a {
-    padding: 1.4rem 1rem;
+    align-items: center;
+    padding: 1.25rem 1rem;
     font-size: 1rem;
 }
 #header ul li a:hover, .current {
