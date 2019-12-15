@@ -8,15 +8,14 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
-    
 }
 
 /* utilities*/
 
 .container {
     max-width: 1024px; 
-    margin: auto;   
-
+    margin: auto;
+    padding: 0rem 2rem;
 }
 
 li {
@@ -62,8 +61,6 @@ h2, h3, h4 {
     color: #333;
 }
 
-
-
 .text-main {
     color:  #f7c08a;
 }
@@ -79,40 +76,39 @@ h2, h3, h4 {
 
 /* Header */
 
-
+#header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    align-items: center;
+}
+
+#header h2 {
+    font-size: 2rem;
     text-align: center;
-}
-
-.nav-bar h2 {
-    font-size: 2.5rem;
-    margin: auto;
-}
-
-.logo {
     color: white;
-    
 }
+
 
 ul {
     display: flex;
     align-content: center;
-    justify-content: center;  
+    justify-content: center;
 }
 
-li {  
-    
-  margin: auto;
-}
 
 #header ul li a {
     align-items: center;
-    padding: 1.28rem 1rem;
     font-size: 1rem;
+    display: block;
+    padding: 1rem 1.5rem ;
 }
+
 #header ul li a:hover, .current {
     background: #444;
     color:  #f7c08a;    
@@ -122,13 +118,15 @@ li {
 
 #showcase {
     background: url(/images/showcase.jpg) no-repeat center center / cover;
-    height: 500px; 
+    height: 500px;
+    padding-top: 160px;
+    overflow: hidden;
 }
 
 #showcase .showcase-content {
     text-align: center;
     color: white;
-    padding-top: 160px; 
+   
 }
 
 #showcase .showcase-content h1 {
@@ -145,6 +143,7 @@ li {
 
 #home-info {
     display: flex;
+    justify-content: center;
 }
 
 #home-info img{
@@ -152,11 +151,9 @@ li {
   height: 100%;
 }
 
-#home-info .info-img {
-    width: 50%;
-}
+
 #home-info .info-content {
-    width: 50%;
+    
     text-align: center;
     color: white;
     padding: 4rem 2rem;
@@ -165,10 +162,8 @@ li {
     align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
 }
-
-
 
 #home-info .info-content a:hover {
     background: #f7c08a;
@@ -179,13 +174,17 @@ li {
 /* Features */
 
 #features {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    
     text-align: center;
+    justify-content: center;
 }
 
 .box {
-    padding: 2rem 2rem;
+    padding: 2rem;
+    align-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .box:nth-child(2) {
@@ -249,10 +248,8 @@ li {
     display: flex;
     flex-direction: column;
     opacity: 0.9;
-    
-    
-     
 }
+
 .testimonial-1 {
     display: flex;
     background: #f7c08a;
@@ -321,11 +318,6 @@ form button:hover {
 }
 
 
-
-
-
-
-
  /* Footer */
 
  footer {
@@ -334,6 +326,7 @@ form button:hover {
      text-align: center;
      font-size: 0.7rem;
      padding: 0.5rem 0rem;
+     overflow: hidden;
  }
 
 
