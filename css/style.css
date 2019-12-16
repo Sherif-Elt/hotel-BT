@@ -80,43 +80,53 @@ h2, h3, h4 {
 
 /* Header */
 
-#header {
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 1;
-}
-.nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav h2 {
+    float: left;
+    color: white;
+    margin: 0rem 0rem 0rem 1.5rem;
 }
 
-#header h2 {
-    font-size: 2rem;
-    text-align: center;
+.nav {
+    text-align: right;
+    line-height: 50px;
+    height: 50px;
+    background: #333;
+}
+
+
+.menu a {
+    text-decoration: none;
+    margin: auto;
+    line-height: 50px;
+    padding: 1rem 2rem;
+    color: white;
+    display: inline;
+}
+
+.current {
+    background: #444;
+    color: rgb(255, 195, 85)
+}
+
+.menu a:hover {
+    background: #444;
+    color: rgb(255, 195, 85)
+}
+
+.nav label {
+    margin: 0rem 1rem 0rem 0rem;
+    font-size: 1.8rem;
+    line-height: 50px;
+    display: none;
+    cursor: pointer;
     color: white;
 }
 
-
-ul {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+#toggle {
+    display: none;
+    cursor: pointer;
 }
 
-
-#header ul li a {
-    align-items: center;
-    font-size: 1rem;
-    display: block;
-    padding: 1rem 1.5rem ;
-}
-
-#header ul li a:hover, .current {
-    background: #444;
-    color:  #f7c08a;    
-}
 
 /* Showcase*/
 
@@ -124,7 +134,7 @@ ul {
     background: url(/images/showcase.jpg) no-repeat center center / cover;
     height: 500px;
     overflow: hidden;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
 }
