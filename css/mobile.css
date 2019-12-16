@@ -4,10 +4,6 @@
     flex-direction: column;
 }
 
-#header  h2 {
-    font-size: 2rem;
-     margin: auto;
-}
 
 ul {
     display: flex;
@@ -28,8 +24,8 @@ li {
 
 /* showcase */
 
-#showcase .showcase-content {
-     
+#showcase .showcase-content h1 {
+    font-size: 2rem;
 }
 
 /* home */
