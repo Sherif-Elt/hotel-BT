@@ -71,8 +71,9 @@
      padding-bottom: 1.5rem;
 }
 
-/* Testimonials */
-
+#testimonials h2 {
+    font-size: 1.5rem;
+}
 
 .testimonial-1 {
     display: flex;
