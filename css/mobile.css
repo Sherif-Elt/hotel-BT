@@ -16,11 +16,11 @@
     .menu a {
         clear: right;
         display: block;
-        border-bottom: 1px #444 solid;
+        border-bottom: 1px #f7c18a7a dotted;
         margin: 0;
         color: white;
         position: relative;
-        background-color: rgba(68, 68, 68, 0.31);
+        background-color: rgb(68, 68, 68);
     }
 
     #toggle:checked + .menu {

@@ -84,6 +84,8 @@ h2, h3, h4 {
     float: left;
     color: white;
     margin: 0rem 0rem 0rem 1.5rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
 }
 
 .nav {
@@ -93,11 +95,9 @@ h2, h3, h4 {
     background: #333;
 }
 
-
 .menu a {
     text-decoration: none;
     margin: auto;
-    line-height: 50px;
     padding: 1rem 2rem;
     color: white;
     display: inline;
@@ -105,12 +105,12 @@ h2, h3, h4 {
 
 .current {
     background: #444;
-    color: rgb(255, 195, 85)
+    color: #f7c08a
 }
 
 .menu a:hover {
     background: #444;
-    color: rgb(255, 195, 85)
+    color: #f7c08a
 }
 
 .nav label {
@@ -188,14 +188,13 @@ h2, h3, h4 {
 /* Features */
 
 #features {
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     text-align: center;
-    justify-content: center;
 }
 
 .box {
-    padding: 2rem;
+    padding: 4rem;
     align-content: center;
     align-items: center;
     overflow: hidden;
@@ -217,8 +216,6 @@ h2, h3, h4 {
  }
 
  /* About Page */
-
- 
 
 .about-page {
     display: flex;
@@ -340,7 +337,6 @@ form button:hover {
      font-size: 0.7rem;
      padding: 0.5rem 0rem;
      overflow: hidden;
-    
  }
 
 
