@@ -1,5 +1,8 @@
 @media screen and (max-width: 500px) {
 
+    .nav .container {
+        all: unset;
+    }
     .nav label {
         display: block;
         width: 26px;
@@ -10,8 +13,8 @@
         text-align: center;
         width: 100%;
         display: none;
-       
     }
+
 
     .menu a {
         clear: right;
