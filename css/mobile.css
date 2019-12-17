@@ -15,6 +15,9 @@
         display: none;
     }
 
+    .nav h2 {
+        padding-left: 1rem;
+    }
 
     .menu a {
         clear: right;
