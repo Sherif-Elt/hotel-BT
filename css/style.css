@@ -120,6 +120,7 @@ h2, h3, h4 {
     display: none;
     cursor: pointer;
     color: white;
+    z-index: 3;;
 }
 
 #toggle {
